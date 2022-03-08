@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Roboto&display=swap');
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Hubballi';
+}
+header p{
+    text-align: right;
+}
+input{
+    margin: 10px;
+}
+h1{
+    margin-top: 100px;
+    font-size: 40pt;
+}
+p{
+    font-size: 20pt;
+}
+#num{
+    width: 200px;
+    height: 30px;
+}
+#button{
+    border-radius: 5px;
+    font-family: 'Hubballi';
+    font-size: 15pt;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
