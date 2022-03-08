@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Médias</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="https://www.alura.com.br/" target="_blank" rel="external">alura</a>
+        </div>
+        <h1>
+            Calculadora de média
+        </h1>
+        <h2>
+            Descubra qual a sua média de nota de todas as provas!
+        </h2>
+    </header>
+    <section>
+        <div>
+         Nome: <input type="text" name="nome" id="nome"> 
+         <br>Nota 1:<input type="number" name="nota1" id="nota1">
+         <br>Nota 2:<input type="number" name="nota2" id="nota2">
+         <br>Nota 3:<input type="number" name="nota3" id="nota3">
+         <br>Nota 4:<input type="number" name="nota4" id="nota4">
+        <br><input type="button" value="OK" onclick="carregaDados()">
+        </div>
+        <div id="res">
+
+        </div>
+    </section>
+    <script src="java.js"></script>
+</body>
+</html>
