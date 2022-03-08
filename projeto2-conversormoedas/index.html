@@ -15,14 +15,20 @@
         <h1>
             Conversor de Moedas
         </h1>
+        <h2>
+            Descubra o valor em U$
+        </h2>
     </header>
     <section>
-        <p>
-            Insira um Valor
+        <p class="subtitle">
+            Insira um Valor em R$
         </p>
         <div>
             <input type="number" name="num" id="num">
-            <br><input type="button" value="Converter" onclick="converter()" id="button">
+            <br><button type="submit" onclick="converter()">Converter</button>
+        </div>
+        <div id="res">
+
         </div>
     </section>
     <script src="script.js"></script>
