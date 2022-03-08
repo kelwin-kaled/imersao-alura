@@ -46,3 +46,8 @@ div#res{
     margin-top: 50px;
     font-size: 25pt;
 }
+select{
+    width: 50px;
+    height: 30px;
+    margin-left: 10px;
+}

@@ -21,10 +21,13 @@
     </header>
     <section>
         <p class="subtitle">
-            Insira um Valor em R$
+            Insira um valor e selecione o tipo
         </p>
         <div>
             <input type="number" name="num" id="num">
+            <select name="coin" id="coin">
+                <option value="real">R$</option>
+            </select>
             <br><button type="submit" onclick="converter()">Converter</button>
         </div>
         <div id="res">
