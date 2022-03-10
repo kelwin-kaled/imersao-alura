@@ -4,9 +4,7 @@ body{
     color: white;
     text-align: center;
     font-family: 'Hubballi';
-    background-image: url('imagens/pexels-max-flinterman-715425.jpg');
-    background-position: center;
-    background-repeat: repeat-x;
+    background: black url(imagens/pexels-max-flinterman-715425.jpg) center center fixed;
 }
 header{
     margin-bottom: 100px;
@@ -26,7 +24,7 @@ p{
 }
 p.subtitle{
     font-size: 15pt;
-    color: black;
+    color: rgb(245, 241, 241);
 }
 #num{
     width: 200px;
