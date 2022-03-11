@@ -6,7 +6,7 @@ body{
     font-family: 'Hubballi';
     margin: 0px;
     background-image: url('https://cdn.universoracionalista.org/wp-content/uploads/2020/06/gargantua-scaled.jpg');
-    background-position: center center;
+    background-position: left center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -45,6 +45,7 @@ input.bt{
     font-weight: bolder;
     font-size: 1.1em;
     font-family: 'Hubballi';
+    border-radius: 5px;
 }
 img{
     width: 200px;
