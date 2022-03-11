@@ -30,7 +30,7 @@ function remove(){
         window.alert('Digite o fime que deseja remover')
     }else{
         indice = Number.parseInt(indice.value)
-         filmes = filmes.slice(indice,1)
+        filmes.slice(indice,1)
         exibe()
     }
 }
