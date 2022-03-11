@@ -1,5 +1,26 @@
-var filmes = ['https://br.web.img3.acsta.net/pictures/14/10/31/20/39/476171.jpg', 'https://images-na.ssl-images-amazon.com/images/I/91382RVTr3L.jpg', 'https://t.ctcdn.com.br/XDiptbyb8AUjwN_fFj-ns90TrOs=/660x0/smart/i554287.jpeg' ]
-var res = document.getElementById('res')
-for(let p in filmes){
-    res.innerHTML += `<img src="${filmes[p]}" width="30%">   `
+function adiciona(){
+    var url = document.getElementById('url')
+    if(url.value == ''){
+        window.alert('adicione uma URL')
+    }else{
+        let num = 0;
+        for(let x in filmes){
+            if(url.value == filmes[x]){
+                num++
+                window.alert('URL já existente, tente outra')
+            }
+        }
+        if(num==0){
+            filmes.push(url.value)
+            res.innerHTML = 'Filme adicionado'
+        }
+    }
 }
+function exibe(){
+    res.innerHTML = ''
+    for(let p in filmes){
+        res.innerHTML += `<img src="${filmes[p]}">`
+    }
+}
+var res = document.getElementById('res')
+var filmes = []

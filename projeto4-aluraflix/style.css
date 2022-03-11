@@ -27,6 +27,7 @@ p>a:hover{
 main{
     text-align: center;
     padding-top: 20px;
+    min-height: 70vh;
 }
 main h1{
     font-weight: normal;
@@ -34,4 +35,21 @@ main h1{
 footer{
     text-align: center;
     font-size: 1.2em;
+}
+input.bt{
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.1em;
+    font-family: 'Hubballi';
+}
+img{
+    width: 200px;
+    margin: 0px 30px;
+}
+div#res{
+    font-size: 2em;
 }
