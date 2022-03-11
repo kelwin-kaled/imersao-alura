@@ -13,13 +13,16 @@
         <p><a href="https://www.alura.com.br/" target="_blank">Alura</a></p>
     </header>
     <main>
-        <h1>Qual o seu filme favorito? Adiciona a URL da imagem</h1> <br>
-        <input type="url" name="url" id="url"> <br>
-        <input type="button" value="ADICIONA" onclick="adiciona()" class="bt"> <br>
+        <h1>Qual o seu filme favorito?</h1> <br>
+        URL da imagem: <br> <input type="url" name="url" id="url" class="text"> <br>
+        Indice para remoção: <br> <input type="number" name="indice" id="indice" class="text"> <br>
+        <input type="button" value="ADICIONA" onclick="adiciona()" class="bt">
         <input type="button" value="EXIBIR" onclick="exibe()" class="bt">
+        <input type="button" value="REMOVER" onclick="remove()" class="bt">
         <div id="res">
 
         </div>
+        <div class="res"></div>
     </main>
     <footer>
         <p>Feito por Kelwin Kaled</p>

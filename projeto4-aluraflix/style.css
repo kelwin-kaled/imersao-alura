@@ -37,7 +37,7 @@ footer{
     font-size: 1.2em;
 }
 input.bt{
-    margin: 10px;
+    margin:40px 10px;
     width: 100px;
     height: 30px;
     background-color: red;
@@ -47,10 +47,15 @@ input.bt{
     font-family: 'Hubballi';
     border-radius: 5px;
 }
+input.text{
+    margin: 10px 0px;
+}
+
 img{
-    width: 250px;
-    margin: 0px 30px;
+    width: 400px;
+    margin: 10px 0px;
 }
 div#res{
+    text-align: center;
     font-size: 2em;
 }
